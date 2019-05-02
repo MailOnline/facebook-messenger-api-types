@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/MailOnline/facebook-messenger-api-types/issues"
   },
-  "homepage": "https://github.com/MailOnline/facebook-messenger-api-types#readme"
+  "homepage": "https://github.com/MailOnline/facebook-messenger-api-types#readme",
+  "devDependencies": {
+    "semantic-release": "^15.13.3"
+  }
 }
