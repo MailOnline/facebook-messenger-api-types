@@ -1,4 +1,4 @@
-type Tag =
+export type Tag =
   | 'BUSINESS_PRODUCTIVITY'
   | 'COMMUNITY_ALERT'
   | 'CONFIRMED_EVENT_REMINDER'
@@ -16,5 +16,3 @@ type Tag =
   | 'TRANSPORTATION_UPDATE'
   | 'FEATURE_FUNCTIONALITY_UPDATE'
   | 'TICKET_UPDATE';
-
-  export default Tag;

@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/MailOnline/facebook-messenger-api-types#readme",
   "devDependencies": {
-    "semantic-release": "^15.13.3"
+    "semantic-release": "^15.13.3",
+    "tslint": "^5.11.0",
+    "tslint-config-mailonline": "^3.0.0"
   }
 }

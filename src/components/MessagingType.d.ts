@@ -1,3 +1,1 @@
-type MessagingType = 'RESPONSE' | 'UPDATE' | 'MESSAGE_TAG';
-
-export default MessagingType;
+export type MessagingType = 'RESPONSE' | 'UPDATE' | 'MESSAGE_TAG';

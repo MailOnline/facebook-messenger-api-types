@@ -1,3 +1,1 @@
-type SenderAction = 'mark_seen' | 'typing_on' | 'typing_off';
-
-export default SenderAction;
+export type SenderAction = 'mark_seen' | 'typing_on' | 'typing_off';

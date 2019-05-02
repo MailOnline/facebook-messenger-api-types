@@ -1,6 +1,6 @@
-import ReceivedPayloadBase from './ReceivedPayloadBase';
+import {ReceivedPayloadBase} from './ReceivedPayloadBase';
 
-interface QuickReplyPayload extends ReceivedPayloadBase {
+export interface QuickReplyPayload extends ReceivedPayloadBase {
   message: {
     mid: string;
     quick_reply: {
@@ -10,5 +10,3 @@ interface QuickReplyPayload extends ReceivedPayloadBase {
     text: string;
   };
 }
-
-export default QuickReplyPayload;

@@ -1,10 +1,9 @@
-import PayloadBase from './PayloadBase';
+import {Recipient} from '../../components/Recipient';
 
-interface ReceivedPayloadBase extends PayloadBase {
+export interface ReceivedPayloadBase {
+  recipient: Recipient;
   sender: {
     id: string;
   };
   timestamp: number;
 }
-
-export default ReceivedPayloadBase;
