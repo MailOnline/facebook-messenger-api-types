@@ -1,0 +1,16 @@
+*.log
+*.swo
+*.swp
+.DS_Store
+.idea/
+.scripts/
+.vagrant/
+bin/
+dist/
+bower_components/
+coverage/
+dev/
+node_modules/
+config/databag.json
+package-lock.json
+~*.xlsx

@@ -1,0 +1,19 @@
+{
+  "name": "facebook-messenger-api-types",
+  "version": "1.0.0",
+  "description": "Typescript types for the Facebook messenger platform API (https://developers.facebook.com/docs/messenger-platform/reference)",
+  "main": "",
+  "scripts": {
+    "test": "echo \"NO TESTS\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:MailOnline/facebook-messenger-api-types.git"
+  },
+  "author": "MailOnline <fe@mailonline.co.uk>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MailOnline/facebook-messenger-api-types/issues"
+  },
+  "homepage": "https://github.com/MailOnline/facebook-messenger-api-types#readme"
+}
