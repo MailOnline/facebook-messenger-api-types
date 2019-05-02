@@ -1,6 +1,6 @@
 {
   "name": "facebook-messenger-api-types",
-  "version": "1.0.0",
+  "version": "0.0.0-SEMANTICALLY-RELEASED",
   "description": "Typescript types for the Facebook messenger platform API (https://developers.facebook.com/docs/messenger-platform/reference)",
   "main": "",
   "scripts": {
