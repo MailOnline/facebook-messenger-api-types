@@ -4,7 +4,8 @@
   "description": "Typescript types for the Facebook messenger platform API (https://developers.facebook.com/docs/messenger-platform/reference)",
   "main": "",
   "scripts": {
-    "test": "echo \"NO TESTS\" && exit 0"
+    "test": "echo \"NO TESTS\" && exit 0",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
