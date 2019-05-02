@@ -1,4 +1,4 @@
-interface GamePlayButton {
+export interface GamePlayButton {
   game_metadata: {
     context_id: string;
     player_id: string;
@@ -7,5 +7,3 @@ interface GamePlayButton {
   title: 'Play';
   type: 'game_play';
 }
-
-export default GamePlayButton;

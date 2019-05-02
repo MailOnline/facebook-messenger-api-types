@@ -1,4 +1,4 @@
-interface DefaultAction {
+export interface DefaultAction {
   type: 'web_url';
   url: string;
   webview_height_ratio?: 'compact' | 'tall' | 'full';
@@ -6,5 +6,3 @@ interface DefaultAction {
   fallback_url?: string;
   webview_share_button?: string;
 }
-
-export default DefaultAction;

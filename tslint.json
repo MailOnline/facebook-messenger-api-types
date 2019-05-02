@@ -1,0 +1,7 @@
+{
+  "extends": "tslint-config-mailonline",
+  "rules": {
+    "no-require-imports": false,
+    "no-var-requires": false
+  }
+}

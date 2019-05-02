@@ -1,4 +1,4 @@
-interface Recipient {
+export interface Recipient {
   id: string; // <PSID, phone_number or user_ref>
   phone_number?: string;
   user_ref?: string;
@@ -7,5 +7,3 @@ interface Recipient {
     last_name: string;
   };
 }
-
-export default Recipient;

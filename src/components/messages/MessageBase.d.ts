@@ -5,9 +5,7 @@ interface QuickReply {
   title: string;
 }
 
-interface MessageBase {
+export interface MessageBase {
   metadata?: string;
   quickReplies?: QuickReply[];
 }
-
-export default MessageBase;

@@ -1,13 +1,13 @@
-import BuyButton from './BuyButton';
-import CallButton from './CallButton';
-import GamePlayButton from './GamePlayButton';
-import LogInButton from './LogInButton';
-import LogOutButton from './LogOutButton';
-import PostbackButton from './PostbackButton';
-import ShareButton from './ShareButton';
-import UrlButton from './UrlButton';
+import {BuyButton} from './BuyButton';
+import {CallButton} from './CallButton';
+import {GamePlayButton} from './GamePlayButton';
+import {LogInButton} from './LogInButton';
+import {LogOutButton} from './LogOutButton';
+import {PostbackButton} from './PostbackButton';
+import {ShareButton} from './ShareButton';
+import {UrlButton} from './UrlButton';
 
-type Button =
+export type Button =
   | BuyButton
   | CallButton
   | GamePlayButton
@@ -16,5 +16,3 @@ type Button =
   | PostbackButton
   | ShareButton
   | UrlButton;
-
-export default Button;

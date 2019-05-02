@@ -1,7 +1,5 @@
-import MessagePayload from "./MessagePayload";
-import PostbackPayload from "./PostbackPayload";
-import QuickReplyPayload from "./QuickReplyPayload";
+import {MessagePayload} from "./MessagePayload";
+import {PostbackPayload} from "./PostbackPayload";
+import {QuickReplyPayload} from "./QuickReplyPayload";
 
-type Payload = MessagePayload | PostbackPayload | QuickReplyPayload;
-
-export default Payload;
+export type Payload = MessagePayload | PostbackPayload | QuickReplyPayload;

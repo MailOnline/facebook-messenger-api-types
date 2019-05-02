@@ -1,8 +1,6 @@
-import GenericTemplate from '../templates/GenericTemplate';
-import ButtonTemplate from '../templates/ButtonTemplate';
+import {GenericTemplate} from '../templates/GenericTemplate';
+import {ButtonTemplate} from '../templates/ButtonTemplate';
 
-interface TemplateMessage {
+export interface TemplateMessage {
   attachment: GenericTemplate | ButtonTemplate;
 }
-
-export default TemplateMessage;

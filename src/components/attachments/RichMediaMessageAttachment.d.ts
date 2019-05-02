@@ -1,4 +1,4 @@
-import Recipient from '../Recipient';
+import {Recipient} from '../Recipient';
 
 type AssetType = 'image' | 'audio' | 'video' | 'file';
 
@@ -34,9 +34,7 @@ interface AttachmentFromSaved {
 
 type RichMediaMessageAttachmenPayload = AttachmentFromUrlPayload | AttachmentFromFile | AttachmentFromSaved;
 
-interface RichMediaMessageAttachment {
+export interface RichMediaMessageAttachment {
   type: AssetType;
   payload: RichMediaMessageAttachmenPayload;
 }
-
-export default RichMediaMessageAttachment;

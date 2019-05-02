@@ -5,7 +5,7 @@ interface PriceListItem {
   label: string;
 }
 
-interface BuyButton {
+export interface BuyButton {
   payload: string;
   payment_summary: {
     currency: string;
@@ -18,5 +18,3 @@ interface BuyButton {
   title: string;
   type: 'payment';
 }
-
-export default BuyButton;

@@ -1,7 +1,5 @@
-import MessageBase from './MessageBase';
+import {MessageBase} from './MessageBase';
 
-interface TextMessage extends MessageBase {
+export interface TextMessage extends MessageBase {
   text: string;
 }
-
-export default TextMessage;

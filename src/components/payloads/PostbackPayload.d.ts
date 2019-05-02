@@ -1,6 +1,6 @@
-import ReceivedPayloadBase from './ReceivedPayloadBase';
+import {ReceivedPayloadBase} from './ReceivedPayloadBase';
 
-interface PostbackPayload extends ReceivedPayloadBase {
+export interface PostbackPayload extends ReceivedPayloadBase {
   postback: {
     payload: string;
     referral?: {
@@ -12,5 +12,3 @@ interface PostbackPayload extends ReceivedPayloadBase {
     title: string;
   };
 }
-
-export default PostbackPayload;

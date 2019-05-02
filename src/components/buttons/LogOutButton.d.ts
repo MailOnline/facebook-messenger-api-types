@@ -1,5 +1,3 @@
-interface LogOutButton {
+export interface LogOutButton {
   type: 'account_unlink';
 }
-
-export default LogOutButton;

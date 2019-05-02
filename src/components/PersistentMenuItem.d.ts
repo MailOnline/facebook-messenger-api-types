@@ -1,10 +1,8 @@
-import Button from "./buttons/Button";
+import {Button} from "./buttons/Button";
 
-type PersistentMenuItem = {
+export type PersistentMenuItem = {
       call_to_actions: PersistentMenuItem[];
       title: string;
       type: 'nested';
     }
   | Button;
-
-export default PersistentMenuItem;

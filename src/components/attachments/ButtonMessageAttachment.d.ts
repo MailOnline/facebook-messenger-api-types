@@ -1,4 +1,4 @@
-import Button from "../buttons/Button";
+import {Button} from "../buttons/Button";
 
 interface ButtonMessagePayload {
   buttons: Button[]; // 1 - 3 Buttons
@@ -7,9 +7,7 @@ interface ButtonMessagePayload {
   text: string;
 }
 
-interface ButtonMessageAttachment {
+export interface ButtonMessageAttachment {
   payload: ButtonMessagePayload;
   type: 'template';
 }
-
-export default ButtonMessageAttachment;
